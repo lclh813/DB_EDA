@@ -8,7 +8,7 @@
 ## 步驟說明 
 ### Step1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
-1.2. 設定字型為微軟正黑體  
+[1.2. Set Font Stlye](https://github.com/lclh813/Database/blob/master/1_2_SetFontStlye.ipynb)  
 ### 第2部分：建立資料庫
 2.1. 定義函式庫  
 2.2. 建立空白資料庫  
