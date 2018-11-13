@@ -20,5 +20,5 @@
 [4. Conduct Exploratory Data Analysis](https://github.com/lclh813/Database/blob/master/4_DataAnalysis.ipynb)  
 ### Step 5. Data Visualization
 [5.1. Import Data for Plotting](https://github.com/lclh813/Database/blob/master/5_1_ImportDataToPlot.ipynb)  
-5.2. 靜態長條圖  
+[5.2. Plot Bar Chart by Matplotlib](https://github.com/lclh813/Database/blob/master/5_2_BarChart.ipynb)    
 5.3. 互動式長條圖
