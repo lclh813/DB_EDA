@@ -1,11 +1,21 @@
-# Database
-## 專案說明
-- 資料量超過Excel可處理的最大列數1,048,576列，因此需要建立資料庫來存取。
-- 需要結合2種類型的資料，因此需要透過SQL或Python來合併資料庫。
-- 進行探索式資料分析。
-- 以視覺化的方式呈現資料分析結果。
+# Project: Database
+## Outline
+1. Building Database:   
+- Since the number of records of datasets exceeds the maximum row size allowed by Excel 2013 which is to be 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
+- Tool: SQLite  
 
-## 步驟說明 
+2. Combine Datasets:
+- Data merging should be applied since the information from two different datasets are both critical to further analysis.
+- Tool: SQL, Python
+
+3. Data Analysis:
+- Conduct exploratory data analysis to identify underlying characteristics of the datasets.
+- Tool: Python
+
+4. Data Visualization:
+- Present findings in graphical formats to better communicate.  
+
+## Steps
 ### Step 1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
 [1.2. Set Font Stlye](https://github.com/lclh813/Database/blob/master/1_2_SetFontStlye.ipynb)  
