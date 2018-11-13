@@ -7,7 +7,7 @@
 
 ## 步驟說明 
 ### 第1部分：事前準備  
-1.1. 匯入函式庫  
+[1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
 1.2. 設定字型為微軟正黑體  
 ### 第2部分：建立資料庫
 2.1. 定義函式庫  
