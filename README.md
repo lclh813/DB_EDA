@@ -6,7 +6,7 @@
 - 以視覺化的方式呈現資料分析結果。
 
 ## 步驟說明 
-### 第1部分：事前準備  
+### Step1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
 1.2. 設定字型為微軟正黑體  
 ### 第2部分：建立資料庫
