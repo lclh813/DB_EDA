@@ -11,8 +11,8 @@
 [1.2. Set Font Stlye](https://github.com/lclh813/Database/blob/master/1_2_SetFontStlye.ipynb)  
 ### Step 2. Create Database 
 [2.1. Define Function](https://github.com/lclh813/Database/blob/master/2_1_DefineFunction.ipynb)  
-[2.2. Create Blank Database](https://github.com/lclh813/Database/blob/master/2_2_CreateBlankDatabase.ipynb) 
-2.3. 將資料匯入資料庫
+[2.2. Create Blank Database](https://github.com/lclh813/Database/blob/master/2_2_CreateBlankDatabase.ipynb)  
+[2.3. 將資料匯入資料庫]
 ### 第3部分：合併兩個資料庫資料  
 3.1. 使用SQL語法合併資料庫  
 3.2. 使用Python語法合併資料庫
