@@ -18,7 +18,7 @@
 [3.2. Option 2: Combine Data by Python](https://github.com/lclh813/Database/blob/master/3_2_JoinDatabaseByPython.ipynb)  
 ### Step 4. Data Analysis
 [4. Conduct Exploratory Data Analysis](https://github.com/lclh813/Database/blob/master/4_DataAnalysis.ipynb)  
-### 第5部分：資料視覺化
-5.1. 匯入資料  
+### Step 5. Data Visualization
+[5.1. Import Data for Plotting](https://github.com/lclh813/Database/blob/master/5_1_ImportDataToPlot.ipynb)  
 5.2. 靜態長條圖  
 5.3. 互動式長條圖
