@@ -21,5 +21,7 @@
 ### Step 5. Data Visualization
 [5.1. Import Data for Plotting](https://github.com/lclh813/Database/blob/master/5_1_ImportDataToPlot.ipynb)  
 [5.2. Plot Statistic Bar Chart](https://github.com/lclh813/Database/blob/master/5_2_BarChart.ipynb)  
-[5.3. Plot Interactive Bar Chart](https://github.com/lclh813/Database/blob/master/5_2_StaticBarChart.ipynb)
-5.3. 互動式長條圖
+5.3. Plot Interactive Bar Chart
+[5.3.1. Code](https://github.com/lclh813/Database/blob/master/5_2_StaticBarChart.ipynb)  
+[5.3.2. Chart](https://htmlpreview.github.io/?https://github.com/lclh813/Database/blob/master/5_4_InteractiveBarChart.html)  
+
