@@ -1,7 +1,7 @@
 # Project: Database
 ## Outline
 ### 1. Database Creation   
-- Since the number of records exceeds the maximum row size allowed by Excel 2013 which is to be 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
+- Since the number of records exceeds the maximum row size allowed by Excel 2013 which is 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
 - Tool: SQLite  
 
 ### 2. Datasets Combining 
