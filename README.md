@@ -4,7 +4,7 @@
 - Since the number of records of datasets exceeds the maximum row size allowed by Excel 2013 which is to be 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
 - Tool: SQLite  
 
-### 2. Combine Datasets:
+### 2. Combining Datasets:
 - Data merging should be applied since the information from two different datasets are both critical to further analysis.
 - Tool: SQL, Python
 
