@@ -31,7 +31,7 @@
 [4. Conduct Exploratory Data Analysis](https://github.com/lclh813/Database/blob/master/4_DataAnalysis.ipynb)  
 ### Step 5. Data Visualization
 [5.1. Import Data for Plotting](https://github.com/lclh813/Database/blob/master/5_1_ImportDataToPlot.ipynb)  
-[5.2. Plot Statistic Bar Chart](https://github.com/lclh813/Database/blob/master/5_2_BarChart.ipynb)  
+[5.2. Plot Static Bar Chart](https://github.com/lclh813/Database/blob/master/5_2_StaticBarChart.ipynb)  
 5.3. Plot Interactive Bar Chart  
 [5.3.1. Interactive Bar Chart: Code](https://github.com/lclh813/Database/blob/master/5_3_1_InteractiveBarChart.ipynb)  
 [5.3.2. Interactive Bar Chart: Chart](https://htmlpreview.github.io/?https://github.com/lclh813/Database/blob/master/5_3_2_InteractiveBarChart.html)  
