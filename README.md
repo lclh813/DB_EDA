@@ -13,8 +13,8 @@
 [2.1. Define Function](https://github.com/lclh813/Database/blob/master/2_1_DefineFunction.ipynb)  
 [2.2. Create Blank Database](https://github.com/lclh813/Database/blob/master/2_2_CreateBlankDatabase.ipynb)  
 [2.3. Import Data into Database](https://github.com/lclh813/Database/blob/master/2_3_ImportDataIntoDatabase.ipynb)  
-### 第3部分：合併兩個資料庫資料  
-3.1. 使用SQL語法合併資料庫  
+### Step 3. Combine Data from Two Databases  
+[3.1. Option 1: Combine Data by SQL]()
 3.2. 使用Python語法合併資料庫
 ### 第4部分：資料分析
 進行探索式資料分析（Exploratory Data Analysis）
