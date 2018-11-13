@@ -6,11 +6,11 @@
 - 以視覺化的方式呈現資料分析結果。
 
 ## 步驟說明 
-### Step1. Preparation 
+### Step 1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
 [1.2. Set Font Stlye](https://github.com/lclh813/Database/blob/master/1_2_SetFontStlye.ipynb)  
-### 第2部分：建立資料庫
-2.1. 定義函式庫  
+### Step 2. Create Database 
+[2.1. Define Function](https://github.com/lclh813/Database/blob/master/2_1_DefineFunction.ipynb)  
 2.2. 建立空白資料庫  
 2.3. 將資料匯入資料庫
 ### 第3部分：合併兩個資料庫資料  
