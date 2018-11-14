@@ -1,4 +1,4 @@
-# Project: Database
+# Project: DB_EDA
 ## Outline
 ### 1. Database Creation   
 - Since the number of records exceeds the maximum row size allowed by Excel 2013 which is 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
