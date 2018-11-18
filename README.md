@@ -1,7 +1,7 @@
 # Project: DB_EDA
 
 ## Objective
-There are two sets of data to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits each store orders most frequently and to further gain insights regarding which stores should be making a purchase together to improve retail stocking strategy.
+There are two sets of data to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits each store orders most frequently and to further gain insights regarding which stores should be making a purchase together to improve retail efficiency in restocking.
 
 ## Data
 ### Data 1
