@@ -4,7 +4,7 @@
 There are two datasets to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits should be ordered together to further improve retail efficiency in restocking.
 
 ## Part 2. Data
-### 2.1. Data1
+### 2.1. Data1 (2,484,573 Rows)
  | Index  | Store   | Order | Fruit Name ID | Fruit Name         | Qty  |  
  | :---:  | ---     | :---: | ---           | ---                | ---: | 
  |      1 | Store 1 |     1 | APPL001       | Red Delicious      |  100 | 
@@ -16,7 +16,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      7 | Store 4 |     1 | APPL002       | Royal Gala         |   20 |  
  |      8 | Store 4 |     2 | APPL003       | Fuji               |   30 |   
   
-### 2.2. Data2 
+### 2.2. Data2 (560 Rows)
  | Index  | Fruit Type ID  | Fruit Type | 
  | :---:  | :---           | :---       | 
  |      1 | APPL           | Apple      |
