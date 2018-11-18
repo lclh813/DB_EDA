@@ -24,7 +24,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      3 | GRAP           | Grape      |
  
 ### 2.3. Data Processing
-- Combine Data1 and Data2 in condition that the first 4 letters of "fruit Name ID" in Data1 are identical with "Fruit Type ID" in Data2. 
+- Combine Data1 and Data2 in such a condition that the first 4 letters of "fruit Name ID" in Data1 are identical with "Fruit Type ID" in Data2. 
 - Summarize what kind of fruits are often reordered by each store.
 
  | Store   | Fruit Type     |
