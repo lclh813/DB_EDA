@@ -1,29 +1,32 @@
 # Project: DB_EDA
 
 ## Part 1. Objective
-There are two sets of data to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits each store orders most frequently and to further gain insights regarding which stores should be making a purchase together to improve retail efficiency in restocking.
+- There are two datasets to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits should be ordered together to further improve retail efficiency in restocking.
 
 ## Part 2. Data
-### 2.1. Data 1
- | Index  | Store   | Order | Fruit ID | Fruit Name         | Qty  |  
- | :---:  | ---     | :---: | ---      | ---                | ---: | 
- |      1 | Store 1 |     1 | APPL001  | Red Delicious      |  100 | 
- |      2 | Store 1 |     2 | APPL002  | Royal Gala         |   50 |  
- |      3 | Store 1 |     3 | GRAP001  | Golden Muscat      |   30 |  
- |      4 | Store 2 |     1 | KIWI001  | Sungold Kiwifruit  |  200 |  
- |      5 | Store 3 |     1 | APPL003  | Fuji               |  150 | 
- |      6 | Store 3 |     2 | GRAP002  | Red Globe          |   80 |  
- |      7 | Store 4 |     1 | APPL002  | Royal Gala         |   20 |  
- |      8 | Store 4 |     2 | APPL003  | Fuji               |   30 |   
+### 2.1. Data1
+ | Index  | Store   | Order | Fruit Name ID | Fruit Name         | Qty  |  
+ | :---:  | ---     | :---: | ---           | ---                | ---: | 
+ |      1 | Store 1 |     1 | APPL001       | Red Delicious      |  100 | 
+ |      2 | Store 1 |     2 | APPL002       | Royal Gala         |   50 |  
+ |      3 | Store 1 |     3 | GRAP001       | Golden Muscat      |   30 |  
+ |      4 | Store 2 |     1 | KIWI001       | Sungold Kiwifruit  |  200 |  
+ |      5 | Store 3 |     1 | APPL003       | Fuji               |  150 | 
+ |      6 | Store 3 |     2 | GRAP002       | Red Globe          |   80 |  
+ |      7 | Store 4 |     1 | APPL002       | Royal Gala         |   20 |  
+ |      8 | Store 4 |     2 | APPL003       | Fuji               |   30 |   
   
-### 2.2. Data 2 
- | Index  | ID    | Fruit Type | 
- | :---:  | :---  | :---       | 
- |      1 | APPL  | Apple      |
- |      2 | KIWI  | Kiwifruit  |
- |      3 | GRAP  | Grape      |
+### 2.2. Data2 
+ | Index  | Fruit Type ID  | Fruit Type | 
+ | :---:  | :---           | :---       | 
+ |      1 | APPL           | Apple      |
+ |      2 | KIWI           | Kiwifruit  |
+ |      3 | GRAP           | Grape      |
  
-### 2.3. Summary
+### 2.3. Data Processing
+- Combine Data1 and Data2 in such a condition that first 4 letters of "fruit Name ID" in Data1 are identical with "Fruit Type ID" in Data2. 
+- Summarize what kind of fruits are often reordered by each store.
+
  | Store   | Fruit Type     |
  | :---:   | :---           |
  | Store 1 | (Apple, Grape) |
@@ -32,6 +35,8 @@ There are two sets of data to be merged and analyzed altogether with the purpose
  | Store 4 | (Apple)        |
 
 ### 2.4. Expected Result
+- Assign unique value to each "Fruit Type" and count the number of times each distinct element in "Fruit Type" appears.
+
  | Furit Number | Fruit Type     | Count | Store     | 
  | :---:        | :---           | :---: | :---:     |    
  | 1            | (Apple)        | 1     | Store 4   |
