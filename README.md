@@ -1,10 +1,10 @@
 # Project: DB_EDA
 
-## Objective
+## Part 1. Objective
 There are two sets of data to be merged and analyzed altogether with the purpose to help fugure out what kind of fruits each store orders most frequently and to further gain insights regarding which stores should be making a purchase together to improve retail efficiency in restocking.
 
-## Data
-### Data 1
+## Part 2. Data
+### 2.1. Data 1
  | Index  | Store   | Order | Fruit ID | Fruit Name         | Qty  |  
  | :---:  | ---     | :---: | ---      | ---                | ---: | 
  |      1 | Store 1 |     1 | APPL001  | Red Delicious      |  100 | 
@@ -16,14 +16,14 @@ There are two sets of data to be merged and analyzed altogether with the purpose
  |      7 | Store 4 |     1 | APPL002  | Royal Gala         |   20 |  
  |      8 | Store 4 |     2 | APPL003  | Fuji               |   30 |   
   
-### Data 2 
+### 2.2. Data 2 
  | Index  | ID    | Fruit Type | 
  | :---:  | :---  | :---       | 
  |      1 | APPL  | Apple      |
  |      2 | KIWI  | Kiwifruit  |
  |      3 | GRAP  | Grape      |
  
-### Summary
+### 2.3. Summary
  | Store   | Fruit Type     |
  | :---:   | :---           |
  | Store 1 | (Apple, Grape) |
@@ -31,31 +31,31 @@ There are two sets of data to be merged and analyzed altogether with the purpose
  | Store 3 | (Apple, Grape) |
  | Store 4 | (Apple)        |
 
-### Expected Result
+### 2.4. Expected Result
  | Furit Number | Fruit Type     | Count | Store     | 
  | :---:        | :---           | :---: | :---:     |    
  | 1            | (Apple)        | 1     | Store 4   |
  | 1            | (Kiwifruit)    | 1     | Store 2   |
  | 2            | (Apple, Grape) | 2     | Store 1,3 |
 
-## Outline
-### 1. Database Creation   
+## Part 3. Outline
+### 3.1. Database Creation   
 - Since the number of records exceeds the maximum row size allowed by Excel 2013 which is 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
 - Tool: SQLite  
 
-### 2. Datasets Combining 
+### 3.2. Datasets Combining 
 - Data merging should be applied since the information from two different datasets are both critical to further analysis.
 - Tool: SQL, Python
 
-### 3. Data Analysis
+### 3.3. Data Analysis
 - Conduct exploratory data analysis to identify underlying characteristics of the datasets.
 - Tool: Python Groupby
 
-### 4. Data Visualization
+### 3.4. Data Visualization
 - Present findings in graphical formats to better communicate.    
 - Tool: Python Matplotlib, Bokeh
 
-## Steps
+## Part 4. Steps
 ### Step 1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database/blob/master/1_1_ImportLibrary.ipynb)  
 [1.2. Set Font Stlye](https://github.com/lclh813/Database/blob/master/1_2_SetFontStlye.ipynb)  
