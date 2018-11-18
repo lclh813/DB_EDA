@@ -1,4 +1,43 @@
 # Project: DB_EDA
+
+## Objective
+There are two sets of data that I would like to merge and analyze altogether with the purpose to fugure out what kind of fruits each store orders most frequently and to further gain insights regarding which stores should be making a purchase together to improve retail stocking strategy.
+
+## Data
+### Data 1
+ | Index  | Store   | Order | Fruit ID | Fruit Name         | Qty  |  
+ | :---:  | ---     | :---: | ---      | ---                | ---: | 
+ |      1 | Store 1 |     1 | APPL001  | Red Delicious      |  100 | 
+ |      2 | Store 1 |     2 | APPL002  | Royal Gala         |   50 |  
+ |      3 | Store 1 |     3 | GRAP001  | Golden Muscat      |   30 |  
+ |      4 | Store 2 |     1 | KIWI001  | Sungold Kiwifruit  |  200 |  
+ |      5 | Store 3 |     1 | APPL003  | Fuji               |  150 | 
+ |      6 | Store 3 |     2 | GRAP002  | Red Globe          |   80 |  
+ |      7 | Store 4 |     1 | APPL002  | Royal Gala         |   20 |  
+ |      8 | Store 4 |     2 | APPL003  | Fuji               |   30 |   
+  
+### Data 2 
+ | Index  | ID    | Fruit Type | 
+ | :---:  | :---  | :---       | 
+ |      1 | APPL  | Apple      |
+ |      2 | KIWI  | Kiwifruit  |
+ |      3 | GRAP  | Grape      |
+ 
+### Summary
+ | Store   | Fruit Type     |
+ | :---:   | :---           |
+ | Store 1 | (Apple, Grape) |
+ | Store 2 | (Kiwifruit)    |
+ | Store 3 | (Apple, Grape) |
+ | Store 4 | (Apple)        |
+
+### Expected Result
+ | Furit Number | Fruit Type     | Count | Store     | 
+ | :---:        | :---           | :---: | :---:     |    
+ | 1            | (Apple)        | 1     | Store 4   |
+ | 1            | (Kiwifruit)    | 1     | Store 2   |
+ | 2            | (Apple, Grape) | 2     | Store 1,3 |
+
 ## Outline
 ### 1. Database Creation   
 - Since the number of records exceeds the maximum row size allowed by Excel 2013 which is 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
