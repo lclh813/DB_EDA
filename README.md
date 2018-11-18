@@ -35,7 +35,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  | Store 4 | (Apple)        |
 
 ### 2.4. Expected Result
-- Assign unique value to each "Fruit Type" and count the number of times each distinct element in "Fruit Type" appears.
+- Count the number of times each distinct element in "Fruit Type" appears.
 
  | Furit Number | Fruit Type     | Count | Store     | 
  | :---:        | :---           | :---: | :---:     |    
