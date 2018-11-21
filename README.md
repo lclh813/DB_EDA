@@ -27,7 +27,7 @@
 - Combine Data1 and Data2 in such a condition that the first 4 letters of "Fruit_Name_ID" in Data1 are identical with "Fruit_Type_ID" in Data2. 
 - Summarize what kind of fruits each store often reorders.
 
- | Store   | Fruit Type     |
+ | Store   | Fruit_Type     |
  | :---:   | :---           |
  | Store 1 | (Apple, Grape) |
  | Store 2 | (Kiwifruit)    |
