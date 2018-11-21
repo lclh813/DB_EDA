@@ -5,7 +5,7 @@
 
 ## Part 2. Data
 ### 2.1. Data1 (2,484,573 Rows)
- | Index  | Store   | Order | Fruit Name ID | Fruit Name         | Qty  |  
+ | Index  | Store   | Order | Fruit_Name_ID | Fruit_Name         | Qty  |  
  | :---:  | ---     | :---: | ---           | ---                | ---: | 
  |      1 | Store 1 |     1 | APPL001       | Red Delicious      |  100 | 
  |      2 | Store 1 |     2 | APPL002       | Royal Gala         |   50 |  
@@ -17,11 +17,11 @@
  |      8 | Store 4 |     2 | APPL003       | Fuji               |   30 |   
   
 ### 2.2. Data2 (560 Rows)
- | Index  | Fruit Type ID  | Fruit Type | 
+ | Index  | Fruit_Type_ID  | Fruit_Type | 
  | :---:  | :---           | :---       | 
  |      1 | APPL           | Apple      |
- |      2 | KIWI           | Kiwifruit  |
- |      3 | GRAP           | Grape      |
+ |      2 | GRAP           | Grape      |
+ |      3 | KIWI           | Kiwifruit  |
  
 ### 2.3. Data Processing
 - Combine Data1 and Data2 in such a condition that the first 4 letters of "fruit Name ID" in Data1 are identical with "Fruit Type ID" in Data2. 
