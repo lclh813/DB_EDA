@@ -38,7 +38,7 @@
 - Count the number of times each distinct element in "Fruit_Type" appears.
 
 | Fruit_Type     | Count | Store     | 
-| :---           | :---: | :---:     |    
+| :---           | :---: | :---     |    
 | (Apple)        | 1     | Store 4   |
 | (Kiwifruit)    | 1     | Store 2   |
 | (Apple, Grape) | 2     | Store 1,3 |
