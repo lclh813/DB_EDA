@@ -1,4 +1,4 @@
-# Project: DB_EDA
+# DB_EDA
 
 ## Part 1. Objective
 There are two datasets to be merged and analyzed altogether with the purpose to help figure out what kind of fruits should be replenished together to further improve retail efficiency in restocking.
