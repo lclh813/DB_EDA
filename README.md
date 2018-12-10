@@ -24,7 +24,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      3 | KIWI           | Kiwifruit  |
  
 ### 2.3. Data Processing
-- Combine Data1 and Data2 in such a condition that the first 4 letters of "Fruit_Name_ID" in Data1 are identical with "Fruit_Type_ID" in Data2. 
+- Combine Data1 and Data2 in such a condition that the first 4 letters of ```Fruit_Name_ID``` in Data1 are identical with ```Fruit_Type_ID``` in Data2. 
 - Summarize what kind of fruits each store often reorders.
 
  | Store   | Fruit_Type     |
@@ -35,7 +35,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  | Store 4 | (Apple)        |
 
 ### 2.4. Expected Result
-- Count the number of times each distinct element in "Fruit_Type" appears.
+- Count the number of times each distinct element in ```Fruit_Type``` appears.
 
 | Fruit_Type     | Count | Store     | 
 | :---           | :---: | :---     |    
@@ -46,19 +46,19 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
 ## Part 3. Outline
 ### 3.1. Database Creation   
 - Since the number of records exceeds the maximum row size allowed by Excel 2013 which is 1,048,576 rows, it is necessary to build up databases from which data can be extracted and processed efficiently. 
-- Tool: SQLite  
+- Tool: ```SQLite```  
 
 ### 3.2. Datasets Combining 
 - Data merging should be applied since the information from two different datasets are both critical to further analysis.
-- Tool: SQL, Python
+- Tool: ```SQL``` ```Python```
 
 ### 3.3. Data Analysis
 - Conduct exploratory data analysis to identify underlying characteristics of the datasets.
-- Tool: Python Groupby
+- Tool: Python ```Groupby```
 
 ### 3.4. Data Visualization
 - Present findings in graphical formats to better communicate.    
-- Tool: Python Matplotlib, Bokeh
+- Tool: Python ```Matplotlib``` ```Bokeh```
 
 ## Part 4. Steps
 ### Step 1. Preparation 
