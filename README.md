@@ -24,7 +24,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      3 | KIWI           | Kiwifruit  |
  
 ### 2.3. Data Processing
-- Combine Data1 and Data2 in such a condition that the first 4 letters of ***Fruit_Name_ID*** in ***Data1*** are identical with ***Fruit_Type_ID*** in ***Data2***. 
+- Combine Data1 and Data2 in such a condition that the first 4 letters of ***Fruit_Name_ID*** in Data1 are identical with ***Fruit_Type_ID*** in Data2. 
 - Summarize what kind of fruits each store often reorders.
 
  | Store   | Fruit_Type     |
