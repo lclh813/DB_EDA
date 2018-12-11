@@ -61,6 +61,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
 - Tool: Python ```Matplotlib``` ```Bokeh```
 
 ## Part 4. Steps
+> [***Complete Code***](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/6_CompleteCode.ipynb)
 ### Step 1. Preparation 
 [1.1. Import Library](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/1_1_ImportLibrary.ipynb)  
 [1.2. Set Font Stlye](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/1_2_SetFontStlye.ipynb)  
