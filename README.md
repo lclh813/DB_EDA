@@ -4,7 +4,7 @@
 There are two datasets to be merged and analyzed altogether with the purpose to help figure out what kind of fruits should be replenished together to further improve retail efficiency in restocking.
 
 ## Part 2. Data
-### 2.1. Data 1 (2,484,573 Rows)
+### 2.1. Data 1
  | Index  | Store   | Order | Fruit_Name_ID | Fruit_Name         | Qty  |  
  | :---:  | ---     | :---: | ---           | ---                | ---: | 
  |      1 | Store 1 |     1 | APPL001       | Red Delicious      |  100 | 
@@ -16,7 +16,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      7 | Store 4 |     1 | APPL002       | Royal Gala         |   20 |  
  |      8 | Store 4 |     2 | APPL003       | Fuji               |   30 |   
   
-### 2.2. Data 2 (560 Rows)
+### 2.2. Data 2
  | Index  | Fruit_Type_ID  | Fruit_Type | 
  | :---:  | :---           | :---       | 
  |      1 | APPL           | Apple      |
@@ -24,7 +24,7 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  |      3 | KIWI           | Kiwifruit  |
  
 ### 2.3. Data Processing
-- Combine Data1 and Data2 in such a condition that the first 4 letters of ```Fruit_Name_ID``` in Data1 are identical with ```Fruit_Type_ID``` in Data2. 
+- Combine Data1 and Data2 in such a condition that the first 4 letters of ***Fruit_Name_ID*** in ***Data1*** are identical with ***Fruit_Type_ID*** in ***Data2***. 
 - Summarize what kind of fruits each store often reorders.
 
  | Store   | Fruit_Type     |
@@ -35,10 +35,10 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
  | Store 4 | (Apple)        |
 
 ### 2.4. Expected Result
-- Count the number of times each distinct element in ```Fruit_Type``` appears.
+- Count the number of times each distinct element in ***Fruit_Type*** appears.
 
 | Fruit_Type     | Count | Store     | 
-| :---           | :---: | :---     |    
+| :---           | :---: | :---      |    
 | (Apple)        | 1     | Store 4   |
 | (Kiwifruit)    | 1     | Store 2   |
 | (Apple, Grape) | 2     | Store 1,3 |
