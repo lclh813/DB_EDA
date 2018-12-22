@@ -1,4 +1,6 @@
 # Database Creation and Exploratory Analysis
+## Notice
+It is possible that GitHub fails to display Jupyter Notebooks. Should such circumstances arise, please refer to ***Part 4. Steps*** listed below for code samples.
 
 ## Part 1. Objective
 There are two datasets to be merged and analyzed altogether with the purpose to help figure out what kind of fruits should be replenished together to further improve retail efficiency in restocking.
@@ -61,23 +63,23 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
 - Tool: Python ```Matplotlib``` ```Bokeh```
 
 ## Part 4. Steps
-> [***Complete Code***](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/6_CompleteCode.ipynb)
+> [***Complete Code***](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/6_CompleteCode.ipynb)
 ### Step 1. Preparation 
-[1.1. Import Library](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/1_1_ImportLibrary.ipynb)  
-[1.2. Set Font Stlye](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/1_2_SetFontStlye.ipynb)  
+[1.1. Import Library](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/1_1_ImportLibrary.ipynb)  
+[1.2. Set Font Stlye](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/1_2_SetFontStlye.ipynb)  
 ### Step 2. Create Database 
-[2.1. Define Function](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/2_1_DefineFunction.ipynb)  
-[2.2. Create Blank Database](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/2_2_CreateBlankDatabase.ipynb)  
-[2.3. Import Data into Database](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/2_3_ImportDataIntoDatabase.ipynb)  
+[2.1. Define Function](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/2_1_DefineFunction.ipynb)  
+[2.2. Create Blank Database](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/2_2_CreateBlankDatabase.ipynb)  
+[2.3. Import Data into Database](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/2_3_ImportDataIntoDatabase.ipynb)  
 ### Step 3. Combine Data from Two Databases  
-[3.1. Option 1: Combine Data by SQL](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/3_1_JoinDatabaseBySQL.ipynb)  
-[3.2. Option 2: Combine Data by Python](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/3_2_JoinDatabaseByPython.ipynb)  
+[3.1. Option 1: Combine Data by SQL](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/3_1_JoinDatabaseBySQL.ipynb)  
+[3.2. Option 2: Combine Data by Python](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/3_2_JoinDatabaseByPython.ipynb)  
 ### Step 4. Data Analysis
-[4. Conduct Exploratory Data Analysis](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/4_DataAnalysis.ipynb)  
+[4. Conduct Exploratory Data Analysis](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/4_DataAnalysis.ipynb)  
 ### Step 5. Data Visualization
-[5.1. Import Data for Plotting](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_1_ImportDataToPlot.ipynb)  
-[5.2. Plot Static Bar Chart](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_2_StaticBarChart.ipynb)  
+[5.1. Import Data for Plotting](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/5_1_ImportDataToPlot.ipynb)  
+[5.2. Plot Static Bar Chart](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/5_2_StaticBarChart.ipynb)  
 5.3. Plot Interactive Bar Chart  
-[5.3.1. Interactive Bar Chart: Code](https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_3_1_InteractiveBarChart.ipynb)  
-[5.3.2. Interactive Bar Chart: Chart](https://htmlpreview.github.io/?https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_3_2_InteractiveBarChart.html)  
+[5.3.1. Interactive Bar Chart: Code](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/5_3_1_InteractiveBarChart.ipynb)  
+[5.3.2. Interactive Bar Chart: Chart](https://htmlpreview.github.io/?https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_3_2_InteractiveBarChart.html) 
 
