@@ -81,5 +81,5 @@ There are two datasets to be merged and analyzed altogether with the purpose to 
 [5.2. Plot Static Bar Chart](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/5_2_StaticBarChart.ipynb)  
 5.3. Plot Interactive Bar Chart  
 [5.3.1. Interactive Bar Chart: Code](https://nbviewer.jupyter.org/github/lclh813/Database_Exploratory_Analysis/blob/master/5_3_1_InteractiveBarChart.ipynb)  
-[5.3.2. Interactive Bar Chart: Chart](https://htmlpreview.github.io/?https://github.com/lclh813/Database_Exploratory_Analysis/blob/master/5_3_2_InteractiveBarChart.html) 
+[5.3.2. Interactive Bar Chart: Chart](https://lclh813.github.io/Database_Exploratory_Analysis/blob/master/5_3_2_InteractiveBarChart.html) 
 
